@@ -38,16 +38,16 @@ public class MainActivity extends AppCompatActivity {
                 editor.commit();
 
 
-                Intent displayscreen=new Intent(MainActivity.this, ContactsContract.DisplayNameSources.class);
-                startActivity(displayscreen);
+                Intent Displayscreen=new Intent(MainActivity.this, Displayscreen.class);
+                startActivity(Displayscreen);
                 }
         });
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent registerScreen=new Intent(MainActivity.this, RegionIterator.class);
-                startActivity(registerScreen);
+                Intent Register=new Intent(MainActivity.this, Register.class);
+                startActivity(Register);
                 }
         });
 
